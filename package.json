@@ -1,0 +1,19 @@
+{
+	"name" : "client_require_demo",
+	"description" : "A demonstration of client_require.",
+	"version" : "0.0.1",
+	"author" : "Michelle Steigerwalt <msteigerwalt.com>",
+	"repository" : {
+		"type" : "git",
+		"url" : "git://github.com/Yuffster/client_require_demo.git"
+	},
+	"dependencies":{
+		"client_require":"*", 
+		"uuid-v4":"*",
+		"jquery":"1.8.3",
+		"sillyname":"0.0.1"
+	},
+	"client_dependencies": ["uuid-v4","jquery", "sillyname"],
+	"client_require":"./src",
+	"main": "src/server/main.js"
+}
