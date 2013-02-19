@@ -7,15 +7,15 @@ the client and the server to generate a UUID.
 
 ## To Run
 
-	> git checkout git@github.com:Yuffster/client_require_example.git
-	> npm install
-	> node src/server/main.js
+	$ git clone git@github.com:Yuffster/client_require_example.git
+	$ npm install
+	$ node src/server/main.js
 
 ## Production Mode
 
 To see the production mode output, set your `NODE_ENV` to production:
 
-	> export NODE_ENV=production
+	$ export NODE_ENV=production
 
 Alternatively, you could set the `env` configuration setting within your
 application code:
