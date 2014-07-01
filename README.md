@@ -7,7 +7,7 @@ the client and the server to generate a UUID.
 
 ## To Run
 
-	$ git clone git@github.com:Yuffster/client_require_example.git
+	$ git clone git@github.com:Yuffster/client_require_demo.git
 	$ npm install
 	$ node src/server/main.js
 
